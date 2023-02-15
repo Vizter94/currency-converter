@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Walut</title>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend>Wymiana złotówki na inne waluty</legend>
+            <label>
+                <p>
+                    <span class="form__labelText">Podaj kwotę w zł : </span><input class="js-value" type="number"
+                        placeholder="Kwota">
+                </p>
+                <p><span class="form__labelText"> Wybierz Walutę : </span>
+                    <select class="js-currency">
+                        <option value="EUR">Euro (4,71)</option>
+                        <option value="USD">Dolar Amerykański (4,37)</option>
+                        <option value="GBP">Funt Brytyjski (5,37)</option>
+                        <option value="CHF">Frank Szwajcarski (4,75)</option>
+                        <option value="NOK">Korona Norweska (0,44)</option>
+                    </select>
+                </p>
+                <span class="form__labelResult">Wynik : <span class="js-result"></span></span>
+            </label>
+        </fieldset>
+        <fieldset class="form__fieldset">
+            <legend>Wymiana walut na złotówki</legend>
+            <label>
+                <p>
+                    <span class="form__labelText">Wybierz walutę : </span>
+                    <select class="js-currencyZloty">
+                        <option value="EUR">Euro (4,71)</option>
+                        <option value="USD">Dolar Amerykański (4,37)</option>
+                        <option value="GBP">Funt Brytyjski (5,37)</option>
+                        <option value="CHF">Frank Szwajcarski (4,75)</option>
+                        <option value="NOK">Korona Norweska (0,44)</option>
+                    </select>
+                </p>
+                <p>
+                    Podaj kwotę w wybranej walucie : <input class="js-valueZloty" type="number" placeholder="Kwota">
+                </p>
+                <span class="form__labelResult">Wynik : <span class="js-resultZloty"></span></span>
+            </label>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
