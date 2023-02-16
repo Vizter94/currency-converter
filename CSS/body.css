@@ -1,0 +1,8 @@
+.body{
+    background-color: rgb(50, 97, 31);
+    color: aliceblue;
+}
+.theme{    
+    background-image: url("../images/theme.jpg");
+    color: black;
+}

@@ -60,6 +60,15 @@
     });
 }
     init();
-    
+
+    // const changeBackground = () =>{
+    const buttonElement = document.querySelector(".js-buttonBackground");
+    const bodyElement = document.querySelector(".js-body");
+
+    buttonElement.addEventListener("click", () => {
+    bodyElement.classList.toggle("theme");
+    });
+// }
+    // changeBackground();
     
 }
