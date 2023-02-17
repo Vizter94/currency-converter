@@ -9,3 +9,12 @@ html {
     box-sizing: inherit;
 }
 
+.button{
+    color: chartreuse;
+    background-color: rgb(167, 26, 167);
+    border-color: rgb(167, 26, 167);
+    border-style: groove;
+    border-width: 7px;
+    display: block;
+    margin:0 auto;
+}
